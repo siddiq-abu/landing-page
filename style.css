@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+.banner{
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75) ),url(bed\ 3\ pic.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+    
+    
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: white;
+}
+
+.content h1 {
+font-size: 70px;
+margin-top: 80px;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid teal;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+
+
+.OUR{
+    text-align: center;
+    margin-top: 20px;
+    font-size: medium;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.main{
+    display: flex;
+     height: 338px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.text{
+    text-align: center;
+    padding: 30px;
+}
+
+.CL{
+    color: white;
+}
+
+.img{
+    padding: 40px;
+}
+
+.footer{
+    text-align: center;
+    background-color: teal;
+    margin-top: 100px;
+    
+}
+
+.link ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+    
+    
+}
+.link ul li a{
+color: white;
+}
+
+
+small{
+    color: white;
+    
+}
